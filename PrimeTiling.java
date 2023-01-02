@@ -1,7 +1,6 @@
 package MASHProgContest;
 import java.util.Scanner;
 
-
 class PrimeTiling {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
@@ -20,5 +19,6 @@ class PrimeTiling {
             System.out.println("NO");
         }
 
+        s.close();
     }
 }

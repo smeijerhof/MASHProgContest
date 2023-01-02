@@ -13,5 +13,7 @@ import java.util.Scanner;
         }
 
         System.out.println(total);
+
+        s.close();
     }    
 }

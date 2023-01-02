@@ -38,9 +38,11 @@ class BowlingBalls {
                     System.out.println(i + " " + j);
 
                     // stop search
+                    s.close();
                     return;
                 }
             }
         }
+        s.close();
     }
 }
